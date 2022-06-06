@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Compiled vs Interpreted | Raj Mishra</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/">home</a></li>
+      
+      <li><a href="/blog/">blog</a></li>
+      
+      <li><a href="https://github.com/lordphoenix/">github</a></li>
+      
+      <li><a href="/resume.pdf">resume</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">Compiled vs Interpreted</span></h1>
+
+<h2 class="date">2021/08/20</h2>
+</div>
+
+<main>
+<p>With the growing popularity of scripting languages such as Python and Javascript I found it very interesting to look at the differences between a compiled and an interpreted languages and share my knowledge with you all.</p>
+<p>Both compiled and interpreted languages are quite old in the system python being the latest and apparently the most popular one. Few of the legacy compiled languages are C, C++, BASIC, COBOL and few legacy scripted languages are Ruby, Bash, PHP. Before diving deep into the context of the topic I would like to revise the basic fifth grade difference between a compiler and an interpreter; compiler reads the entire program at once and interpreter reads the program line by line. So is that it? That was the only difference between a compiled language and and interpreted language? Obviously No or else I wouldn&rsquo;t be writing this piece :-p</p>
+<p>So in order to compare the difference I&rsquo;ll mostly be taking C/C++ as an example for compiled language and Python for an interpreted type language. With this I&rsquo;ll first start by giving some real world examples where C/C++ and Python are currently being used. If you look closely all programmes that needs to run closely to the machine (processor) is written in C/C++ such as operating system, interpreters, driver softwares whereas the more advanced applications like a web service or running Machine Learning models or writing client side code are being done in Python, JS.</p>
+<p>So now the question arises why do we do so? Why can&rsquo;t we write python for machine level codes or C++ to write client side web code. The major reason is Python or any interpreted language requires an additional platform to execute the code namely the interpreter which in itself is written in C or C++ in most of the cases. For C/C++ we use a compiler which is responsible for converting the piece of code to a machine level code which you would have seen as a .o file in case you ever used C/C++. Now this is the reason for one of the major difference in the execution time of both kind of languages, compiled languages performing better than the interpreted ones. Once a piece of code is already compiled to a machine level code it doesn&rsquo;t needs to do much in order to produce the output. However in case of interpreted languages, piece of code gets converted to machine level code during run time, this also means that every time you try to run the same program it will be doing all the steps from the beginning, such is not the case with compiled languages.</p>
+<p>If compiled languages is such a charm then why isn&rsquo;t everyone going for the same, the reason is simple it totally depends on your needs and application. Since the past four or five years python has seen a real spike in its usage becoming the 2nd most popular language (just after JS, another scripted language), why is it so? The reason beign the ease to learn. Most of the people who knows how to code are not designing or enhancing operating systems or writing system softwares but many are writing web services, desigin web applications and dont really need to learn C/C++.</p>
+<p>All these being said can we conclude what type of programming language is better? Definitely No. So it all boils down to what kind of application are you looking for and how much time do you have. If you have sufficient amount of time then I would highly recommend to start with C/C++ as your first prgramming language, you might feel a bit frustrated or even curse me for advising this but trust me you&rsquo;ll not regret this. I say this because with C/C++ you need to implement most of the functions by yourself unlike python where you just focus on writing small amount of code. However if you&rsquo;re goals are short and you do not have sufficient time in hand do go for scripted languages and the most popular one i.e. Python.</p>
+<p>To end with I would like to talk about Golang, this is a programming language which is much easy to learn compare to C/C++ but the performance is near to them. Developed by Goolge Golang today is primarily being used to write web services replacing flask and django in the field at a very high rate.</p>
+<p>Thanks for reading this article, do share your views by emailing me at &lsquo;rajmishra1995 <em>at</em> gmail <em>dot</em> com&rsquo; .</p>
+<hr>
+
+</main>
+
+  <footer>
+  
+  
+  </footer>
+  </body>
+</html>
+

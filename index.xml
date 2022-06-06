@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on Raj Mishra</title>
+    <link>https://lordphoenix.github.io/</link>
+    <description>Recent content in Home on Raj Mishra</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://lordphoenix.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Compiled vs Interpreted</title>
+      <link>https://lordphoenix.github.io/compiled-vs-interpreted/</link>
+      <pubDate>Fri, 20 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lordphoenix.github.io/compiled-vs-interpreted/</guid>
+      <description>With the growing popularity of scripting languages such as Python and Javascript I found it very interesting to look at the differences between a compiled and an interpreted languages and share my knowledge with you all.
+Both compiled and interpreted languages are quite old in the system python being the latest and apparently the most popular one. Few of the legacy compiled languages are C, C++, BASIC, COBOL and few legacy scripted languages are Ruby, Bash, PHP.</description>
+    </item>
+    
+    <item>
+      <title>Blog</title>
+      <link>https://lordphoenix.github.io/blog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lordphoenix.github.io/blog/</guid>
+      <description> 2021/08/20 Compiled vs Interpreted  </description>
+    </item>
+    
+  </channel>
+</rss>
